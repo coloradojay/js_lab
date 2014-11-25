@@ -10,12 +10,24 @@ section {
 section > h1 {
 	font-weight: bold;
 }
+h2 {
+	display: block;
+	margin-bottom: -5px;
+}
 
 section > img {
 	max-width: 50%;
 	-webkit-box-shadow: 10px 10px 5px 0px rgba(166,157,148,0.75);
 	-moz-box-shadow: 10px 10px 5px 0px rgba(166,157,148,0.75);
 	box-shadow: 10px 10px 5px 0px rgba(166,157,148,0.75);	
+}
+form {
+	text-decoration: none;
+}
+
+ul, li {
+	text-decoration: none;
+	text-align: center;
 }
 
 section > button {
