@@ -1,0 +1,28 @@
+body {
+	background-color: #D7DED6;
+	font-family: 'Josefin Slab', serif;
+}
+section {
+	text-align: center;
+	position: relative;
+}
+
+section > h1 {
+	font-weight: bold;
+}
+
+section > img {
+	max-width: 50%;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(166,157,148,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(166,157,148,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(166,157,148,0.75);	
+}
+
+section > button {
+	display: inline-block;
+	text-align: center;
+}
+
+button {
+	margin-top: 20px;
+}
