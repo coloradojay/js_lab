@@ -1,8 +1,3 @@
-
-
-
-
-
 function calc() {
     var bill = Number(document.getElementById('bill').value);
     // Get the bill from the input box
