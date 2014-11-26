@@ -12,12 +12,16 @@
 		<h1>How to calculate a tip for Cheapskates</h1>
 		
 		<img src="img/instructions.jpg" />
-
-		<h2>Enter the amount you of your bill <br />(You know after coupons!):</h2>
+		<main>
+			<ul>
+				<li>Enter the amount you of your bill</li>
+				<li>(You know after coupons!):</li>
+			</ul>
+		</main>	
 		<form action="javascript:void(calc())">
         Amount: $<input id="bill" type="text">
         <br />
-        <input type="submit" value="Calculate">
+        <button id="submit">Calculate</button>
         <br />
         Tip: <span id="tip"></span>
         <br />

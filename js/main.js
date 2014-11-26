@@ -1,6 +1,6 @@
 function calc() {
     var bill = Number(document.getElementById('bill').value);
-    // Get the bill from the input box
+    // Get the bill from the input box and conver it from a string to a number using Number(xxx.value)
     var tip = bill * .05;
     // Calc the tipe at only 5% -- What a Cheapskate!
     var total_bill = bill + tip;
