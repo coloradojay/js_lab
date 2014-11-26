@@ -11,10 +11,14 @@ section > h1 {
 	font-weight: bold;
 }
 
-main > ul {
+ul {
 	text-align: center;
-	font-size: 24px;
 	list-style: none;
+	padding: 0;
+}
+
+li {
+	font-size: 24px;
 }
 
 section > img {
@@ -25,4 +29,7 @@ section > img {
 }
 form {
 	text-align: center;
+}
+form > p {
+	line-height: 5px;
 }
